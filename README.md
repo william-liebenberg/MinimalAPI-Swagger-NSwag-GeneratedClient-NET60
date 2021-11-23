@@ -1,0 +1,1 @@
+# MinimalAPI-Swagger-NSwag-GeneratedClient-NET60
