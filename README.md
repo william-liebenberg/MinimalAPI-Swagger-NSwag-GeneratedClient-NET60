@@ -1,6 +1,13 @@
 # MinimalAPI-Swagger-NSwag-GeneratedClient-NET60
 
+This sample demonstrates how to generate a Swagger/OpenAPI specification when using the new [Minimal APIs](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0) (`app.Map*`) from .NET 6.0.
+
+Once we have a swagger/OpenAPI specification, we can generate a Strongly-Typed C# Client that we can consume in our .NET applications (typically Blazor Wasm).
+
+Let's begin!
 ## Create a new WebAPI project
+
+Create a new WebAPI project:
 
 ```ps1
 dotnet new webapi -n minimal-swagger
@@ -78,3 +85,5 @@ Once you have a configuration file we can add the following to our `.csproj` to 
 Now after each build you will notice a freshly generated `.cs` file at the path specified in your `nswag.json` file.
 
 DONE!
+
+TODO: Add the Blazor Wasm sample app :)
